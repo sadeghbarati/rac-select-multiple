@@ -1,7 +1,7 @@
 import { filterDOMProps } from '@react-aria/utils';
 import { createContext, forwardRef, useContext } from 'react';
 import type { ContextValue } from 'react-aria-components';
-import type { ForwardRefType, RenderProps } from 'react-aria-components';
+import type { forwardRefType, RenderProps } from 'react-aria-components';
 import { useContextProps, useSlottedContext } from 'react-aria-components';
 
 import { SelectMultipleContext, SelectMultipleStateContext } from './contexts';
@@ -43,6 +43,6 @@ const RenderFn = (props: Props, ref: React.ForwardedRef<Ref>) => {
   );
 };
 
-const Component = (forwardRef as ForwardRefType)(RenderFn);
+const Component = (forwardRef as forwardRefType)(RenderFn);
 
 export { Component as SelectMultipleValue };

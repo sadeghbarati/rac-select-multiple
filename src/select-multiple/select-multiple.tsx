@@ -1,6 +1,7 @@
 import { filterDOMProps, useResizeObserver } from '@react-aria/utils';
 import { forwardRef, useCallback, useMemo, useRef, useState } from 'react';
 import { useFocusRing } from 'react-aria';
+import type { forwardRefType } from 'react-aria-components';
 import {
   ButtonContext,
   CollectionDocumentContext,
@@ -170,6 +171,6 @@ const SelectMultiple = <T extends object>(
   );
 };
 
-const _SelectMultiple = forwardRef(SelectMultiple);
+const _SelectMultiple = (forwardRef as forwardRefType)(SelectMultiple);
 
 export { _SelectMultiple as SelectMultiple };

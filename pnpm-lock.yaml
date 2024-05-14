@@ -51,8 +51,8 @@ importers:
         specifier: ^3.33.0
         version: 3.33.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-aria-components:
-        specifier: file:react-aria-components-v1.2.0-collection.tgz
-        version: file:react-aria-components-v1.2.0-collection.tgz(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: file:react-aria-components-v1.2.0-collection-2.tgz
+        version: file:react-aria-components-v1.2.0-collection-2.tgz(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
@@ -1103,9 +1103,9 @@ packages:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  react-aria-components@file:react-aria-components-v1.2.0-collection.tgz:
-    resolution: {integrity: sha512-zIJkNUdAtr5wsAVqI9YfqDk2+I6+uNGv16HKXSUlC9D6F+bqF58bGLhj7UFNDQRT5vJPdVP3z+rVkfmlCSdxZw==, tarball: file:react-aria-components-v1.2.0-collection.tgz}
-    version: 1.2.0-collection
+  react-aria-components@file:react-aria-components-v1.2.0-collection-2.tgz:
+    resolution: {integrity: sha512-PvEonlmwLQhpRwyhJ6MQoJMID7h6IU1Yfg48auJ+BJfL6EI03Wi811AfCZds+l52mtTcOZb0j5Q5NXyFhWpJHA==, tarball: file:react-aria-components-v1.2.0-collection-2.tgz}
+    version: 1.2.0-collection-2
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
@@ -2607,7 +2607,7 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  react-aria-components@file:react-aria-components-v1.2.0-collection.tgz(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-aria-components@file:react-aria-components-v1.2.0-collection-2.tgz(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@internationalized/date': 3.5.3
       '@internationalized/string': 3.2.2
